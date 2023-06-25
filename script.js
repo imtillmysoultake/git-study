@@ -1,1 +1,3 @@
-document.body.innerHTML = '<h1>Hello from JavaScript</h1>'
+document.querySelector("#submit").onclick = function(){
+    alert("Вы нажали на кнопку");
+}
